@@ -20,7 +20,7 @@ import test.myblog.service.CommentService;
 
 @RestController
 @RequestMapping("/api/v1/post")
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://codingstrayclient.zeabur.app/")
 public class PostController {
 	
 	@Autowired

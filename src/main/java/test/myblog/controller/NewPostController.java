@@ -21,7 +21,7 @@ import test.myblog.service.ArticleService;
 
 @RestController
 @RequestMapping("/api/v1/newPost")
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://codingstrayclient.zeabur.app/")
 public class NewPostController {
 	
 	@Autowired

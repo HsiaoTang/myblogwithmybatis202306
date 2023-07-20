@@ -22,7 +22,7 @@ import test.myblog.service.TagService;
 
 @RestController
 @RequestMapping("/api/v1/index")
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="https://codingstrayclient.zeabur.app/")
 public class IndexController {
 	
 	@Autowired

@@ -26,7 +26,7 @@ import test.myblog.service.MemberService;
 
 @RestController
 @RequestMapping("/api/v1/member")
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://codingstrayclient.zeabur.app/")
 public class MemberPageController {
 	
 	@Autowired

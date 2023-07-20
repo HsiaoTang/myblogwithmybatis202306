@@ -17,7 +17,7 @@ import test.myblog.service.MemberService;
 
 @RestController
 @RequestMapping("/api/v1/register")
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://codingstrayclient.zeabur.app/")
 public class RegisterController {
 	
 	@Autowired
